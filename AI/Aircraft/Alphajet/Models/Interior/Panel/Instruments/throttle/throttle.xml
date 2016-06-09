@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>throttle.ac</path>
+
+  <animation>
+    <object-name>throttle</object-name>
+    <object-name>manette</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>manette</object-name>
+    <property>/controls/engines/engine/throttle</property>
+    <factor> -62 </factor>
+    <center>
+      <x-m>  0.001 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.164 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

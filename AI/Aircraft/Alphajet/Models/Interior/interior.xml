@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttourverriere</object-name>
+    <object-name>inttourverriere1</object-name>
+    <object-name>inttourverriere2</object-name>
+    <object-name>separation</object-name>
+    <object-name>retrosarrieres</object-name>
+    <object-name>retrosavants</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intverriere</object-name>
+    <object-name>intverriere1</object-name>
+    <object-name>intverriere2</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intverriere</object-name>
+    <object-name>intverriere1</object-name>
+    <object-name>intverriere2</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intverriere</object-name>
+    <object-name>intverriere1</object-name>
+    <object-name>intverriere2</object-name>
+  </animation>
+
+  <!-- Pilote -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -3.137 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.522 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Copilote -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -1.607 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.300 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Planche de bord pilote -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -3.914 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.518 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Planche de bord copilote -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/panel2.xml</path>
+    <offsets>
+      <x-m> -2.344 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.263 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Canopy -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intverriere1</object-name>
+    <object-name>inttourverriere1</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 76 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -2.387 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.402 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>intverriere2</object-name>
+    <object-name>inttourverriere2</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 76 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -0.944 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.410 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

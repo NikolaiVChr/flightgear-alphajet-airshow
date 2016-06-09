@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>warning.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>barre</object-name>
+
+    <object-name>lampes</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>lampes</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>lampes</object-name>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+</PropertyList>
+

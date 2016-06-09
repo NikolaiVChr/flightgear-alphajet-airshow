@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>gear.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>posflap</object-name>
+    <object-name>bip</object-name>
+
+    <object-name>lampflap</object-name>
+    <object-name>af</object-name>
+    <object-name>frein</object-name>
+    <object-name>lamp3</object-name>
+    <object-name>lamp4</object-name>
+    <object-name>lamp5</object-name>
+    <object-name>gearG</object-name>
+    <object-name>gearA</object-name>
+    <object-name>gearD</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>lampflap</object-name>
+    <emission>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission> 
+  </animation>    
+
+  <animation>
+    <type>rotate</type>
+    <object-name>posflap</object-name>
+    <property>surface-positions/flap-pos-norm</property>
+    <factor>78</factor>
+    <center>
+      <x-m> 0.002 </x-m>
+      <y-m> 0.015 </y-m>
+      <z-m> 0.017 </z-m>
+    </center>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>  
+
+  <animation>
+    <type>material</type>
+    <object-name>gearA</object-name>
+    <emission>
+      <factor-prop>gear/gear[0]/position-norm</factor-prop>
+      <red>   4 </red>
+      <green> 4 </green>
+      <blue>  4 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>gearG</object-name>
+    <emission>
+      <factor-prop>gear/gear[1]/position-norm</factor-prop>
+      <red>   4 </red>
+      <green> 4 </green>
+      <blue>  4 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>gearD</object-name>
+    <emission>
+      <factor-prop>gear/gear[2]/position-norm</factor-prop>
+      <red>   4 </red>
+      <green> 4 </green>
+      <blue>  4 </blue>
+    </emission>
+  </animation>
+
+</PropertyList>

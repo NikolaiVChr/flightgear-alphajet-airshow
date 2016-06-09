@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- Source : http://paf.virtuelle.free.fr/images/cockpit/5.jpg -->
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>panelG</object-name>
+    <object-name>panelD</object-name>
+    <object-name>panelC</object-name>
+  </animation>
+
+  <!-- fiche -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/fiche/fiche.xml</path>
+    <offsets>
+      <x-m> 0.004 </x-m>
+      <y-m> 0.066 </y-m>
+      <z-m> 0.130 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- NAV LIGHT -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.210 </y-m>
+      <z-m>  0.060 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ai -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.039 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- alt -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m>  0.126 </y-m>
+      <z-m> -0.043 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Asi -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m> -0.126 </y-m>
+      <z-m> -0.043 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- tac -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/tac/tac1.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.234 </y-m>
+      <z-m> -0.023 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/tac/tac2.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.314 </y-m>
+      <z-m> -0.023 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- egt -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/egt/egt1.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.234 </y-m>
+      <z-m> -0.104 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/egt/egt2.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.314 </y-m>
+      <z-m> -0.104 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- gear -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/gear/gear.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.259 </y-m>
+      <z-m>  0.055 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- débit -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/debit/debit1.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.234 </y-m>
+      <z-m> -0.186 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/debit/debit2.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.314 </y-m>
+      <z-m> -0.186 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- G Meter -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/accel/accel.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.137 </y-m>
+      <z-m>  0.151 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- fuel -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.275 </y-m>
+      <z-m>  0.050 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- pression -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/pressure/pression.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.137 </y-m>
+      <z-m>  0.062 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- vsi -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.111 </y-m>
+      <z-m> -0.146 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- vsi -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.163 </y-m>
+      <z-m>  0.082 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- adi -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/adi/adi.xml</path>
+    <offsets>
+      <x-m> -0.020 </x-m>
+      <y-m> -0.110 </y-m>
+      <z-m> -0.146 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- kcs55 -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/kcs55/ki525a.xml</path>
+    <offsets>
+      <x-m>  0.004 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.163 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- kcs55 -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/kcs55/ka51b.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.086 </y-m>
+      <z-m> -0.210 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ki206 -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/ki206/ki206.xml</path>
+    <offsets>
+      <x-m>  0.004 </x-m>
+      <y-m> -0.247 </y-m>
+      <z-m> -0.046 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- uhf-box -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/uhf-box/uhf-box.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.257 </y-m>
+      <z-m> -0.160 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- throttle -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/throttle/throttle.xml</path>
+    <offsets>
+      <x-m>  0.551 </x-m>
+      <y-m> -0.427 </y-m>
+      <z-m> -0.332 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- warning -->
+  <model>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/warning/warning.xml</path>
+    <offsets>
+      <x-m>  0.018 </x-m>
+      <y-m>  0.376 </y-m>
+      <z-m> -0.290 </z-m>
+      <roll-deg>     0 </roll-deg>
+      <pitch-deg>   -8 </pitch-deg>
+      <heading-deg>  0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- smoke -->
+  <model>
+    <name>PanelSmoke</name>
+    <path>AI/Aircraft/Alphajet/Models/Interior/Panel/Instruments/smoke/smoke.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.283 </y-m>
+      <z-m>  0.201 </z-m>
+      <roll-deg>    34 </roll-deg>
+      <pitch-deg>  -10 </pitch-deg>
+      <heading-deg> 15 </heading-deg>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>PanelSmoke</object-name>
+    <condition>
+      <not>
+        <property>sim/model/hide-yoke</property>
+      </not>
+    </condition>
+  </animation>
+
+</PropertyList>
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>smoke.ac</path>
+
+  <animation>
+    <object-name>box</object-name>
+    <object-name>box2</object-name>
+    <object-name>smoke-on-off</object-name>
+    <object-name>smokeR</object-name>
+    <object-name>smokeV</object-name>
+    <object-name>smokeB</object-name>
+    <object-name>smokeRL</object-name>
+    <object-name>smokeVL</object-name>
+    <object-name>smokeBL</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>smoke-on-off</object-name>
+    <object-name>smokeRL</object-name>
+    <object-name>smokeVL</object-name>
+    <object-name>smokeBL</object-name>
+    <emission>
+      <red>   0.030 </red>
+      <green> 0.015 </green>
+      <blue>  0.005 </blue>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>smoke-on-off</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/multiplay/generic/int[6]</property>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>smoke-on-off</object-name>
+    <property>sim/multiplay/generic/int[6]</property>
+    <factor> 35 </factor>
+    <center>
+      <x-m>  0.075 </x-m>
+      <y-m> -0.059 </y-m>
+      <z-m>  0.000 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>BoutonR</name>
+    <object-name>smokeR</object-name>
+    <object-name>smokeRL</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>BoutonR</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          var p = "sim/multiplay/generic/int[7]";
+          setprop(p, 2);
+        </script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>BoutonR</object-name>
+    <property>sim/multiplay/generic/int[7]</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>  0.000 </dep></entry>
+      <entry><ind> 1 </ind><dep>  0.000 </dep></entry>
+      <entry><ind> 2 </ind><dep> -0.015 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>BoutonV</name>
+    <object-name>smokeV</object-name>
+    <object-name>smokeVL</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>BoutonV</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          var p = "sim/multiplay/generic/int[7]";
+          setprop(p, 0);
+        </script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>BoutonV</object-name>
+    <property>sim/multiplay/generic/int[7]</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> -0.015 </dep></entry>
+      <entry><ind> 1 </ind><dep>  0.000 </dep></entry>
+      <entry><ind> 2 </ind><dep>  0.000 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>BoutonB</name>
+    <object-name>smokeB</object-name>
+    <object-name>smokeBL</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>BoutonB</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          var p = "sim/multiplay/generic/int[7]";
+          setprop(p, 1);
+        </script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>BoutonB</object-name>
+    <property>sim/multiplay/generic/int[7]</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>  0.000 </dep></entry>
+      <entry><ind> 1 </ind><dep> -0.015 </dep></entry>
+      <entry><ind> 2 </ind><dep>  0.000 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
