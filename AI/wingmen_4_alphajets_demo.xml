@@ -9,9 +9,9 @@
 			
 			Use an Alphajet with white smoke for autenticity.
 
-			- Vivian Meazza and Necolatis
+			- Nikolai V. Chr.
 
-			Version 1.3, Dec. 09, 2013
+			Version 1.4, Jun. 9th, 2016
 		</description>
 
 		<entry>
@@ -23,11 +23,21 @@
 			<z-offset>0</z-offset>
 			<formate>true</formate>
 			<max-speed-kts>540</max-speed-kts>
+			<azimuth>0</azimuth>
+			<elevation>0</elevation>
+			<life>-1</life>
+			<no-roll type="bool">false</no-roll>
+			<sub-ID>0</sub-ID>
+			<parent type="string"></parent>
+			<pitch-offset>0</pitch-offset>
+			<roll-offset>0</roll-offset>
+			<yaw-offset>0</yaw-offset>
+			<ground-offset>0</ground-offset>
 			<coefficients>
 				<heading>5.0</heading>
 				<pitch>4.0</pitch>
 				<bank>4.0</bank>
-				<speed>2.5</speed>
+				<speed>9.9</speed>
 			</coefficients>
 		</entry>
 		<entry>
@@ -43,7 +53,7 @@
 				<heading>5.0</heading>
 				<pitch>4.0</pitch>
 				<bank>4.0</bank>
-				<speed>2.5</speed>
+				<speed>9.9</speed>
 			</coefficients>
 		</entry>
 		<entry>
@@ -59,10 +69,10 @@
 				<heading>5.0</heading>
 				<pitch>4.0</pitch>
 				<bank>4.0</bank>
-				<speed>2.5</speed>
+				<speed>9.9</speed>
 			</coefficients>
 		</entry>
-		<entry>
+		<!--<entry>
 			<name>Show-5</name>
 			<type>wingman</type>
 			<model>AI/Aircraft/alphajet/Models/alphajet_wingman_blue_smoke.xml</model>
@@ -75,9 +85,9 @@
 				<heading>5.0</heading>
 				<pitch>4.0</pitch>
 				<bank>4.0</bank>
-				<speed>2.5</speed>
+				<speed>200.5</speed>
 			</coefficients>
-		</entry>
+		</entry>-->
 	</scenario>
 
 </PropertyList>
